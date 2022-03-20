@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientFiles\Downloaded\" />
+    <Folder Include="ClientFiles\Uploaded\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sautinsoft.document" Version="5.4.12.1" />
+  </ItemGroup>
+
+
+</Project>

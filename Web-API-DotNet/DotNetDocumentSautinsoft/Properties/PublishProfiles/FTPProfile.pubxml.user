@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9kzOxVDUF0OB3+ay+I5JYgAAAAACAAAAAAAQZgAAAAEAACAAAACYOnBsCVvM8f9I97+X4t0BNech9irMdeQwzJU63UAnnQAAAAAOgAAAAAIAACAAAAA+gpN5BqC4LMIgJAhpSDVDh1BMpBK9Hy59/gRS4V/kRyAAAACbdTh2sM79+d3WMKAZ3hF7kPLF18LausumMkx+2MgOQ0AAAAAuHnNeddv9Z/RWQG4vOMQVr6n0In25vvc+ZboO7c/AvVTPjZ941/ISPX8Uc9k7hnzko73Wz86eWspl5opwmN5Z</EncryptedPassword>
+    <_PublishTargetUrl>ftp://win5033.site4now.net/netcoreapi</_PublishTargetUrl>
+    <History>True|2022-03-19T20:23:14.7801712Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>03/19/2022 15:44:55</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>03/19/2022 15:44:55</publishTime>
+    </File>
+    <File Include="DotNetDocumentSautinsoft.deps.json">
+      <publishTime>03/20/2022 01:51:49</publishTime>
+    </File>
+    <File Include="DotNetDocumentSautinsoft.dll">
+      <publishTime>03/20/2022 01:51:44</publishTime>
+    </File>
+    <File Include="DotNetDocumentSautinsoft.exe">
+      <publishTime>03/20/2022 01:51:46</publishTime>
+    </File>
+    <File Include="DotNetDocumentSautinsoft.pdb">
+      <publishTime>03/20/2022 01:51:44</publishTime>
+    </File>
+    <File Include="DotNetDocumentSautinsoft.runtimeconfig.json">
+      <publishTime>03/20/2022 01:51:50</publishTime>
+    </File>
+    <File Include="SautinSoft.Document.dll">
+      <publishTime>12/01/2021 08:04:22</publishTime>
+    </File>
+    <File Include="System.IO.Packaging.dll">
+      <publishTime>07/19/2017 15:31:28</publishTime>
+    </File>
+    <File Include="System.Xml.XPath.XmlDocument.dll">
+      <publishTime>11/05/2016 10:27:34</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>03/20/2022 01:52:06</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

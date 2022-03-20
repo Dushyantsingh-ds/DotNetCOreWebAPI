@@ -1,0 +1,10 @@
+D:\Development\DotNetDocumentSautinsoft_dotnet_bk0\DotNetDocumentSautinsoft\obj\Release\netcoreapp3.1\PubTmp\Out\DotNetDocumentSautinsoft.exe
+D:\Development\DotNetDocumentSautinsoft_dotnet_bk0\DotNetDocumentSautinsoft\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+D:\Development\DotNetDocumentSautinsoft_dotnet_bk0\DotNetDocumentSautinsoft\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+D:\Development\DotNetDocumentSautinsoft_dotnet_bk0\DotNetDocumentSautinsoft\obj\Release\netcoreapp3.1\PubTmp\Out\DotNetDocumentSautinsoft.dll
+D:\Development\DotNetDocumentSautinsoft_dotnet_bk0\DotNetDocumentSautinsoft\obj\Release\netcoreapp3.1\PubTmp\Out\DotNetDocumentSautinsoft.deps.json
+D:\Development\DotNetDocumentSautinsoft_dotnet_bk0\DotNetDocumentSautinsoft\obj\Release\netcoreapp3.1\PubTmp\Out\DotNetDocumentSautinsoft.runtimeconfig.json
+D:\Development\DotNetDocumentSautinsoft_dotnet_bk0\DotNetDocumentSautinsoft\obj\Release\netcoreapp3.1\PubTmp\Out\DotNetDocumentSautinsoft.pdb
+D:\Development\DotNetDocumentSautinsoft_dotnet_bk0\DotNetDocumentSautinsoft\obj\Release\netcoreapp3.1\PubTmp\Out\SautinSoft.Document.dll
+D:\Development\DotNetDocumentSautinsoft_dotnet_bk0\DotNetDocumentSautinsoft\obj\Release\netcoreapp3.1\PubTmp\Out\System.IO.Packaging.dll
+D:\Development\DotNetDocumentSautinsoft_dotnet_bk0\DotNetDocumentSautinsoft\obj\Release\netcoreapp3.1\PubTmp\Out\System.Xml.XPath.XmlDocument.dll

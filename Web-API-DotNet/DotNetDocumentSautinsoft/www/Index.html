@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Net API - Sautinsoft</title>
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <meta name="description" content="" />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/icon.png" />
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/LineIcons.3.0.css" />
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <link rel="stylesheet" href="./assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="./assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <style>
+        .riti {
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3080E3;
+            border: 2px solid #3080E3;
+            border-radius: 30px;
+            padding: 8px 30px;
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1047.0" data-gr-ext-installed="">
+  
+    <div class="preloader" style="opacity: 0; display: none;">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+
+    <header class="header navbar-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <!-- Start Navbar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand">
+                                <img src="./assets/images/logo/logo.svg" style="width: 150px; height: 29px;" alt="Logo">
+                            </a>
+                        </nav>
+                        <!-- End Navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <!-- Start Hero Area -->
+    <section class="hero-area" style="padding-top:150px">
+        <div class="main__circle2"> </div>
+        <div class="main__circle3"> </div>
+        <div class="main__circle4"> </div>
+        <div class="container">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title" style="border-style: dotted; padding-top: 50px; padding-bottom: 50px; border-radius: 30px;">
+                            <img style="padding-bottom:20px" src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-convert-user-interface-design-soft-fill-soft-fill-juicy-fish.png" />
+                            <h2 class="wow fadeInUp" data-wow-delay=".4s"> Convert any formate</h2>
+                            <div class="text">with given formates</div>
+                            <br />
+                            <select class="form-select riti" name="Destination" id="Destination" plceholder="Convert to">
+                                <option value="Null" disabled selected>Convert to</option>
+                                <option value=".docx">Docx</option>
+                                <option value=".pdf">Pdf</option>
+                                <option value=".html">Html</option>
+                                <option value=".txt">Text</option>
+                                <option value=".rtf">Rtf</option>
+                            </select>
+                            <label for="file" class="wow zoomIn riti" style="display:none" id="btnUpload" data-wow-delay=".2s"> Select File</label>
+                            <label id="btnDownload" class="riti" style="display:none" value="Download">Download</label>
+
+
+                            <script>
+
+                            </script>
+                            <input type="file" id="file" accept=".docx,.doc" style="display:none;" />
+                            <progress id="fileProgress" style="display: none"> </progress>
+                            <br />
+                            <span id="lblMessage" style="color: Green"> </span>
+
+                            <p class="wow fadeInUp" data-wow-delay=".6s">
+                                By using this service, you agree to our <a> Terms </a> of Use and <a> Privacy Policy</a> .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+    <!-- Start Footer Area -->
+    <footer class="footer section">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="inner-content">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!-- Single Widget -->
+                            <div class="single-footer f-about">
+                                <div class="logo">
+                                    <a>
+                                        <img src="./assets/images/logo/logo.svg" style="width: 150px; height: 29px;" alt="#">
+                                    </a>
+                                </div>
+                                <span> &copy; Sautinsoft 2022 .</span> Developed by<a href="https://sautinsoft.com/" rel="nofollow" target="_blank"> Sautinsoft.</a>
+
+                            </div>
+                            <!-- End Single Widget -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- / End Footer Top -->
+    </footer>
+    <!-- / End Footer Area -->
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+        <i class="lni lni-chevron-up"> </i>
+    </a>
+    <!-- ========================= JS here ========================= -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/tiny-slider.js"></script>
+    <script src="./assets/js/glightbox.min.js"></script>
+    <script src="./assets/js/count-up.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var Y = document.getElementById("btnDownload");
+            Y.style.display = "none";
+            var Z = document.getElementById("btnUpload");
+            Z.style.display = "Block";
+            console.log("page load");
+            var value = null;
+
+            $("body").on("click", "#btnDownload", function () {
+
+                var url = "/api/File/Download?FileName=" + value;
+                window.open(url);
+
+                document.getElementById('btnDownload').innerHTML = "Waiting";
+                var Z = document.getElementById("btnUpload");
+                Z.style.display = "none";
+                var Y = document.getElementById("btnDownload");
+                Y.style.display = "block";
+                console.log("Downloded");
+                $("#lblMessage").html("File Disposing");
+                setTimeout(function () {
+                    document.getElementById('btnDownload').innerHTML = "Download";
+                    var Z = document.getElementById("btnUpload");
+                    Z.style.display = "block";
+                    var Y = document.getElementById("btnDownload");
+                    Y.style.display = "none";
+                    console.log("Dispose");
+                    $("#lblMessage").html("");
+                }, 2000);
+
+            });
+
+            document.getElementById("file").onchange = function () {
+                if ($("#Destination").val() != "Null") {
+
+                    console.log("Setp 1 ");
+                    var data = new FormData();
+                    var files = $("#file").get(0).files;
+                    if (files.length > 0) {
+                        data.append("file", files[0]);
+                    }
+                    data.append("tExtension", $("#Destination").val());
+
+                    var ajaxRequest = $.ajax({
+                        type: "POST",
+                        url: "/Api/File/Upload?tExtension=" + $("#Destination").val(),
+                        contentType: false,
+                        processData: false,
+                        data: data,
+                        success: function (response) {
+                            $(this).prev('lblMessage').text(files);
+                            $("#lblMessage").html("File has been uploaded.");
+                            var Y = document.getElementById("btnUpload");
+                            Y.style.display = "none";
+                            var Z = document.getElementById("btnDownload");
+                            Z.style.display = "Block";
+                            $("#fileProgress").hide();
+                            console.log("Setp  3");
+
+                            value = response;
+                        }, xhr: function () {
+                            console.log("Setp 2 ");
+
+                            var fileXhr = $.ajaxSettings.xhr();
+                            if (fileXhr.upload) {
+                                $("progress").show();
+                                fileXhr.upload.addEventListener("progress", function (e) {
+                                    if (e.lengthComputable) {
+                                        $("#fileProgress").attr({
+                                            value: e.loaded,
+                                            max: e.total
+                                        });
+                                    }
+                                }, false);
+                            }
+                            return fileXhr;
+                        }
+                    });
+                    return false;
+                }
+            }
+
+
+        });
+    </script>
+</body>
+</html>
